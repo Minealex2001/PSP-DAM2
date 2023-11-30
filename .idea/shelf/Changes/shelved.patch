@@ -1,0 +1,144 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"VcsDirectoryMappings\">\n    <mapping directory=\"\" vcs=\"Git\" />\n    <mapping directory=\"$PROJECT_DIR$/Tema-2/Ejercicio1\" vcs=\"Git\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 527b3aaaf3bf779bd7db6f6499f5ca0066a53c8f)
++++ b/.idea/vcs.xml	(date 1701354623333)
+@@ -2,6 +2,5 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="" vcs="Git" />
+-    <mapping directory="$PROJECT_DIR$/Tema-2/Ejercicio1" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5baa29ba-5e9b-4267-87e5-4d35c661c809\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/Tema-1/Pruebas/Prueba_Examen/src/main/java/GestorDescargas.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Tema-1/Pruebas/Prueba_Examen/src/main/java/ejercicio1/hilos/Gardener.java\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Tema-1/Pruebas/Prueba_Examen/src/main/java/ejercicio1/hilos/Town.java\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"2WcuIyoinuuKYrnmGPRmOHqGtwb\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"main\",\n    \"last_opened_file_path\": \"/home/alesanpin2/IdeaProjects/PSP-DAM2\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5baa29ba-5e9b-4267-87e5-4d35c661c809\" name=\"Changes\" comment=\"\" />\n      <created>1697044113756</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1697044113756</updated>\n      <workItem from=\"1697044115032\" duration=\"2000\" />\n      <workItem from=\"1698681112574\" duration=\"40000\" />\n      <workItem from=\"1698934978651\" duration=\"20000\" />\n      <workItem from=\"1701107012247\" duration=\"184000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 527b3aaaf3bf779bd7db6f6499f5ca0066a53c8f)
++++ b/.idea/workspace.xml	(date 1701354623321)
+@@ -1,12 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="5baa29ba-5e9b-4267-87e5-4d35c661c809" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/Tema-1/Pruebas/Prueba_Examen/src/main/java/GestorDescargas.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Tema-1/Pruebas/Prueba_Examen/src/main/java/ejercicio1/hilos/Gardener.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Tema-1/Pruebas/Prueba_Examen/src/main/java/ejercicio1/hilos/Town.java" beforeDir="false" />
+-    </list>
++    <list default="true" id="5baa29ba-5e9b-4267-87e5-4d35c661c809" name="Changes" comment="Aqui han pasado cosas" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -14,6 +9,28 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="ROOT_SYNC" value="DONT_SYNC" />
++  </component>
++  <component name="GitToolBoxStore">
++    <option name="recentBranches">
++      <RecentBranches>
++        <option name="branchesForRepo">
++          <list>
++            <RecentBranchesForRepo>
++              <option name="branches">
++                <list>
++                  <RecentBranch>
++                    <option name="branchName" value="master" />
++                    <option name="lastUsedInstant" value="1701354590" />
++                  </RecentBranch>
++                </list>
++              </option>
++              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/Tema-2/Ejercicio1" />
++            </RecentBranchesForRepo>
++          </list>
++        </option>
++      </RecentBranches>
++    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -22,6 +39,7 @@
+   &quot;associatedIndex&quot;: 7
+ }</component>
+   <component name="ProjectId" id="2WcuIyoinuuKYrnmGPRmOHqGtwb" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -30,9 +48,15 @@
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "WebServerToolWindowFactoryState": "false",
+     "git-widget-placeholder": "main",
+     "last_opened_file_path": "/home/alesanpin2/IdeaProjects/PSP-DAM2",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+@@ -48,10 +72,47 @@
+       <workItem from="1698681112574" duration="40000" />
+       <workItem from="1698934978651" duration="20000" />
+       <workItem from="1701107012247" duration="184000" />
++      <workItem from="1701354249399" duration="374000" />
++    </task>
++    <task id="LOCAL-00001" summary="Mover ejercicio">
++      <option name="closed" value="true" />
++      <created>1701354288718</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1701354288718</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Aqui han pasado cosas">
++      <option name="closed" value="true" />
++      <created>1701354571881</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1701354571881</updated>
+     </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <ignored-roots>
++      <path value="$PROJECT_DIR$/Tema-2/Ejercicio1" />
++    </ignored-roots>
++    <MESSAGE value="Mover ejercicio" />
++    <MESSAGE value="Aqui han pasado cosas" />
++    <option name="LAST_COMMIT_MESSAGE" value="Aqui han pasado cosas" />
++  </component>
+ </project>
+\ No newline at end of file
