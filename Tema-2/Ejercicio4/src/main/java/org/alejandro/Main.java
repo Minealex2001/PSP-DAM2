@@ -8,29 +8,10 @@ public class Main {
         String url = "34.228.162.124";
         String mqttUrl = String.format("tcp://%s:1883", url);
 
-        CarSimulator simulator;
-        try {
-            simulator = new CarSimulator(mqttUrl);
-        } catch (MqttException e) {
-            System.err.println("Error: " + e.getMessage());
-            return;
-        }
+        CarSimulator simulator = new CarSimulator(mqttUrl);
+        Radar radar = new Radar(mqttUrl, url);
+        PoliceStation policeStation = new PoliceStation(mqttUrl, url);
 
-        Radar radar;
-        try {
-            radar = new Radar(mqttUrl, url);
-        } catch (MqttException e) {
-            System.err.println("Error: " + e.getMessage());
-            return;
-        }
-
-        PoliceStation policeStation;
-        try {
-            policeStation = new PoliceStation(mqttUrl, url);
-        } catch (MqttException e) {
-            System.err.println("Error: " + e.getMessage());
-            return;
-        }
         Thread simulatorThread = new Thread(simulator);
         Thread radarThread = new Thread(radar);
         Thread policeStationThread = new Thread(policeStation);

@@ -8,21 +8,40 @@ import java.util.UUID;
 public class PoliceStation implements Runnable {
 
     private final MqttClient client;
-
     private final Jedis jedis;
 
     public static final String VEHICLES = "CHARLES:VEHICLES";
-
     public static final String FINEDVEHICLES = "CHARLES:FINEDVEHICLES";
 
-    public PoliceStation(String mqttUrl, String redisUrl) throws MqttException {
-        this.client = new MqttClient(mqttUrl, UUID.randomUUID().toString());
+    public PoliceStation(String mqttUrl, String redisUrl) {
+        this.client = createMqttClient(mqttUrl);
+        this.jedis = new Jedis(redisUrl, 6379);
+        jedis.del(FINEDVEHICLES, VEHICLES);
+    }
+
+    private MqttClient createMqttClient(String mqttUrl) {
+        MqttClient tempClient = null;
+        try {
+            tempClient = new MqttClient(mqttUrl, UUID.randomUUID().toString());
+            tempClient.connect(createMqttConnectOptions());
+            tempClient.setCallback(createMqttCallback());
+            tempClient.subscribe("car/excess");
+        } catch (MqttException e) {
+            System.err.println("Error: " + e.getMessage());
+        }
+        return tempClient;
+    }
+
+    private MqttConnectOptions createMqttConnectOptions() {
         MqttConnectOptions options = new MqttConnectOptions();
         options.setAutomaticReconnect(true);
         options.setCleanSession(true);
         options.setConnectionTimeout(10);
-        client.connect();
-        client.setCallback(new MqttCallback() {
+        return options;
+    }
+
+    private MqttCallback createMqttCallback() {
+        return new MqttCallback() {
             @Override
             public void connectionLost(Throwable throwable) {}
             @Override
@@ -38,24 +57,19 @@ public class PoliceStation implements Runnable {
                     }else {
                         fine = 300;
                     }
-                    String msg = String.format("TICKET:%s:%d", data[2], fine);
-                    MqttMessage message = new MqttMessage(msg.getBytes());
-                    client.publish("car/ticket", message);
+                    publishMessage("TICKET:%s:%d", data[2], fine);
                     jedis.rpush(FINEDVEHICLES, data[2]);
                 }
             }
             @Override
             public void deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken) {
             }
-        });
-        client.subscribe("car/excess");
-        this.jedis = new Jedis(redisUrl, 6379);
-        jedis.del(FINEDVEHICLES, VEHICLES);
+        };
     }
 
     @Override
     public void run() {
-        do {
+        while (true) {
             try {
                 long vehiclesLength = jedis.llen(VEHICLES);
                 long finedVehiclesLength = jedis.llen(FINEDVEHICLES);
@@ -66,6 +80,12 @@ public class PoliceStation implements Runnable {
             } catch (Exception e) {
                 System.err.println("Error: " + e.getMessage());
             }
-        }while (true);
+        }
+    }
+
+    private void publishMessage(String format, String data, int fine) throws MqttException {
+        String msg = String.format(format, data, fine);
+        MqttMessage message = new MqttMessage(msg.getBytes());
+        client.publish("car/ticket", message);
     }
 }
