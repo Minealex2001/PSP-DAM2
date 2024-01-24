@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7597c60-6ccd-4cbd-af58-b197572fafcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practica1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practica1/models/Enemigo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practica1/models/Jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b7597c60-6ccd-4cbd-af58-b197572fafcd" name="Changes" comment="Falta retocar un poco" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,14 +94,36 @@
       <updated>1706113505740</updated>
       <workItem from="1706113506765" duration="1909000" />
       <workItem from="1706117059811" duration="4313000" />
-      <workItem from="1706121384641" duration="673000" />
+      <workItem from="1706121384641" duration="1406000" />
     </task>
+    <task id="LOCAL-00001" summary="Falta retocar un poco">
+      <option name="closed" value="true" />
+      <created>1706122766670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706122766670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Falta retocar un poco" />
+    <option name="LAST_COMMIT_MESSAGE" value="Falta retocar un poco" />
   </component>
 </project>
