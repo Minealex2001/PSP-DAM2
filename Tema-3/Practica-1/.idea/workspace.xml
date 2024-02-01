@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7597c60-6ccd-4cbd-af58-b197572fafcd" name="Changes" comment="Falta retocar un poco" />
+    <list default="true" id="b7597c60-6ccd-4cbd-af58-b197572fafcd" name="Changes" comment="Leeme hecho">
+      <change afterPath="$PROJECT_DIR$/../Practica-0/src/FutureParallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica-0/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica-0/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practica1/models/Enemigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practica1/models/Enemigo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -43,6 +51,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alesanpin2/IdeaProjects/PSP-DAM2/Tema-3/Practica-1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,7 +103,11 @@
       <updated>1706113505740</updated>
       <workItem from="1706113506765" duration="1909000" />
       <workItem from="1706117059811" duration="4313000" />
-      <workItem from="1706121384641" duration="1406000" />
+      <workItem from="1706121384641" duration="2319000" />
+      <workItem from="1706195148763" duration="65000" />
+      <workItem from="1706197388456" duration="64000" />
+      <workItem from="1706207558140" duration="1160000" />
+      <workItem from="1706279696408" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="Falta retocar un poco">
       <option name="closed" value="true" />
@@ -104,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706122766670</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Codigo comentado">
+      <option name="closed" value="true" />
+      <created>1706122909494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706122909494</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Leeme hecho">
+      <option name="closed" value="true" />
+      <created>1706123097755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706123097755</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +153,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Falta retocar un poco" />
-    <option name="LAST_COMMIT_MESSAGE" value="Falta retocar un poco" />
+    <MESSAGE value="Codigo comentado" />
+    <MESSAGE value="Leeme hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leeme hecho" />
   </component>
 </project>

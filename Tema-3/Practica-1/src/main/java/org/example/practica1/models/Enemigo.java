@@ -39,15 +39,15 @@ public class Enemigo {
     // Método para mover el enemigo
     public void mover(Jugador jugador) {
         if (jugador.getX() > x) {
-            x += 2;
+            x += 1;
         } else if (jugador.getX() < x) {
-            x -= 2;
+            x -= 1;
         }
 
         if (jugador.getY() > y) {
-            y += 2;
+            y += 1;
         } else if (jugador.getY() < y) {
-            y -= 2;
+            y -= 1;
         }
 
         // Comprueba si el enemigo está dentro de los límites
