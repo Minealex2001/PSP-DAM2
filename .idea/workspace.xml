@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5baa29ba-5e9b-4267-87e5-4d35c661c809" name="Changes" comment="Fet" />
+    <list default="true" id="5baa29ba-5e9b-4267-87e5-4d35c661c809" name="Changes" comment="Fet">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,10 +68,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alesanpin2/IdeaProjects/PSP-DAM2",
+    "last_opened_file_path": "/home/alesanpin2/IdeaProjects/PSP-DAM2/Tema-3/ProyectoSpring2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,6 +117,8 @@
       <workItem from="1706112515092" duration="1000" />
       <workItem from="1708013612408" duration="110000" />
       <workItem from="1708013733198" duration="135000" />
+      <workItem from="1708013874587" duration="556000" />
+      <workItem from="1708014543424" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Mover ejercicio">
       <option name="closed" value="true" />
@@ -161,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708013747548</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fet">
+      <option name="closed" value="true" />
+      <created>1708013907949</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708013907949</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
