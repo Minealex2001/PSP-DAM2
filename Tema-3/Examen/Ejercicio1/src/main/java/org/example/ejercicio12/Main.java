@@ -7,8 +7,17 @@ import java.io.InputStreamReader;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import java.util.Random;
+
+/**
+ * Clase principal que implementa la lógica de la aplicación.
+ */
 public class Main {
 
+
+    /**
+     * Método principal que se ejecuta al iniciar la aplicación.
+     * @param args argumentos de la línea de comandos
+     */
     public static void main(String[] args) {
         DownloaderAndZip downloaderAndZip = new DownloaderAndZip();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -31,7 +40,13 @@ public class Main {
 
 
         
-    }   
+    }
+
+    /**
+     * Genera una cadena de caracteres aleatoria de la longitud especificada.
+     * @param length la longitud de la cadena de caracteres a generar
+     * @return una cadena de caracteres aleatoria
+     */
     private static String generateRandomString(int length) {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         StringBuilder sb = new StringBuilder(length);
